@@ -1,0 +1,26 @@
+{
+  "name": "utils-helpers",
+  "version": "1.0.4",
+  "description": "Small utility helpers: deepMerge, debounce, memoize. Native binding for the fast-path implementation, JS fallback included.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node install/build.js"
+  },
+  "binary": {
+    "napi_versions": [7],
+    "host": "https://github.com/nbridgedev/utils-helpers/releases/download",
+    "package_name": "{napi_build_version}-{platform}-{arch}.tar.gz"
+  },
+  "author": "Northbridge Dev <dev@nbridgedev.example>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "install/",
+    "README.md",
+    "LICENSE"
+  ]
+}
