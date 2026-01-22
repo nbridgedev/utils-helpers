@@ -1,6 +1,6 @@
 {
   "name": "utils-helpers",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Small utility helpers: deepMerge, debounce, memoize. Native binding for the fast-path implementation, JS fallback included.",
   "main": "index.js",
   "scripts": {
